@@ -20,7 +20,7 @@ function LogoTitle({onHandleInputChange}) {
       <input type='text' placeholder='Enter your logo '
       className='p-4 border rounded-lg mt-5  w-full'
       defaultValue={title}
-      onChange={(e)=>onHandleInputChange(e.tareget.value)}/>
+      onChange={(e)=>onHandleInputChange(e.target.value)}/>
     </div>
   )
 }
